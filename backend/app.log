@@ -1,0 +1,22 @@
+info: CSV read started at Thu May 08 2025 14:35:05 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:35:05.183Z"}
+info: Server running on http://localhost:5000 {"timestamp":"2025-05-08T18:35:05.190Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:35:05.193Z"}
+info: CSV read started at Thu May 08 2025 14:39:02 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:39:02.450Z"}
+info: Server running on http://localhost:5000 {"timestamp":"2025-05-08T18:39:02.457Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:39:02.461Z"}
+info: CSV read started at Thu May 08 2025 14:39:21 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:39:21.491Z"}
+warn: Port 5000 is busy, trying 5001 {"timestamp":"2025-05-08T18:39:21.498Z"}
+info: Server running on http://localhost:5001 {"timestamp":"2025-05-08T18:39:21.499Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:39:21.503Z"}
+info: CSV read started at Thu May 08 2025 14:41:20 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:41:20.525Z"}
+info: Server running on http://localhost:5000 {"timestamp":"2025-05-08T18:41:20.531Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:41:20.535Z"}
+info: CSV read started at Thu May 08 2025 14:42:11 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:42:11.130Z"}
+warn: Port 5000 is busy, trying 5001 {"timestamp":"2025-05-08T18:42:11.136Z"}
+info: Server running on http://localhost:5001 {"timestamp":"2025-05-08T18:42:11.137Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:42:11.141Z"}
+info: CSV read started at Thu May 08 2025 14:47:22 GMT-0400 (Eastern Daylight Time) {"timestamp":"2025-05-08T18:47:22.602Z"}
+warn: Port 5000 is busy, trying 5001 {"timestamp":"2025-05-08T18:47:22.607Z"}
+warn: Port 5001 is busy, trying 5002 {"timestamp":"2025-05-08T18:47:22.608Z"}
+info: Server running on http://localhost:5002 {"timestamp":"2025-05-08T18:47:22.609Z"}
+info: CSV read completed. Records parsed: 5 {"timestamp":"2025-05-08T18:47:22.613Z"}

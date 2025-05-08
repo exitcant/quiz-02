@@ -1,0 +1,159 @@
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.search-container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 40px 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #2196f3;
+  box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.1);
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #666;
+  pointer-events: none;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 0;
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.skills-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.skills-table th:hover {
+  background-color: #e9ecef;
+}
+
+.skills-table tr:last-child td {
+  border-bottom: none;
+}
+
+.skills-table tr:hover td {
+  background-color: #f8f9fa;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #2196f3;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.error-container {
+  background-color: #fff3f3;
+  border: 1px solid #ffcdd2;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.error-message {
+  color: #d32f2f;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.retry-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.retry-button:hover {
+  background-color: #1976d2;
+  transform: translateY(-1px);
+}
+
+.no-data-container {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #666;
+}
+
+.no-results {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+  font-style: italic;
+}
+
+.table-footer {
+  text-align: right;
+  color: #666;
+  font-size: 14px;
+  padding: 8px 16px;
+} 
